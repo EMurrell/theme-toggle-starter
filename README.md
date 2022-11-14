@@ -1,7 +1,7 @@
 # Theme Toggle Starter
 
 ## This is a Nextjs(13) Starter pre-configured with dark/light mode switch (no flash) and Animation components.
-
+### Note: although the example is mostly JS, it is TS-ready.
 
 ### It uses the following packages/dependencies:
 
@@ -16,5 +16,7 @@
 * import the `Toggle` and `animation` components into whichever file you want to use them
 * Wrap JSX elements with an animation component for scroll-triggered animations
 * Customize the animation components to your liking (set delay, duration, etc)
+
+
 
 Run `npm run dev` to start the development server, and view at `localhost:3000`
