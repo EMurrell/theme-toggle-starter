@@ -23,13 +23,13 @@ export default function Toggle() {
         return setTheme("light");
       }}
       type="button"
-      className="ml-1 mr-1 h-8 w-8 rounded p-1 sm:ml-4"
+      className=" h-9 w-9 bg-neutral-300 dark:bg-neutral-600 rounded-lg p-1 hover:shadow-md hover:shadow-neutral-500 mb-12"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
-        className="text-gray-900 dark:text-gray-100"
+        className="text-neutral-900 dark:text-neutral-100"
       >
         {mounted && theme === "dark" ? (
           <path
@@ -44,3 +44,4 @@ export default function Toggle() {
     </button>
   );
 }
+

@@ -13,14 +13,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="h-screen w-full flex flex-col items-center justify-center  bg-white dark:bg-neutral-900">
+      <main className="h-screen w-full flex flex-col justify-center items-center p-12  bg-white dark:bg-neutral-900">
+        {/* Place the toggle switch wherever you'd like */}
+        <Toggle />
+        {/* Wrap your JSX Element in a motion component (animations) */}
         <FadeUp>
-          <h1 className="text-3xl font-bold text-blue-500 dark:text-red-500">
-            Hello world!
+          <h1 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
+            Nextjs 13 with TailwindCSS, Framer-Motion, and Theme Toggle
           </h1>
         </FadeUp>
-        <Toggle />
       </main>
     </div>
   );
 }
+
