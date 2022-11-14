@@ -1,6 +1,7 @@
 # Theme Toggle Starter
 
 ## This is a Nextjs(13) Starter pre-configured with dark/light mode switch and Animation components.
+(No Flash)
 
 ### It uses the following packages/dependencies:
 
