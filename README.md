@@ -1,15 +1,13 @@
-# *This is still a work in progress*
+# Theme Toggle Starter
 
-# theme-toggle-starter
-
-## This is a Nextjs(13) Starter pre-configured with Theme switch and Animation components.
+## This is a Nextjs(13) Starter pre-configured with dark/light mode switch and Animation components.
 
 ### It uses the following packages/dependencies:
 
-* TailwindCSS for styling, 
-* Framer Motion for the animations, 
-* react-intersection-observer for triggering animations on scroll, 
-* next-themes for controlling the dark/light mode toggle
+* [TailwindCSS](https://tailwindcss.com/) for styling, 
+* [Framer Motion](https://www.framer.com/motion/) for the animations, 
+* [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer) for triggering animations on scroll, 
+* [next-themes](https://www.npmjs.com/package/next-themes) for controlling the dark/light mode toggle
 
 ## How to use:
 * clone the repository,
